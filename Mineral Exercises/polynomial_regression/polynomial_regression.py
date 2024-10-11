@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 
 # importing the dataset
 dataset = pd.read_csv(
-    '/Users/moebooka/Learning/machine-learning/Mineral Exercises/polynomial_regression/Position_Salaries.csv')
+    '/Users/moebooka/Learning/machine-learning/Mineral Exercises/datasets/Position_Salaries.csv')
 X = dataset.iloc[:, 1:-1].values
 y = dataset.iloc[:, -1].values
 

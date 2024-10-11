@@ -1,6 +1,3 @@
-from turtle import color
-from matplotlib import axis
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
